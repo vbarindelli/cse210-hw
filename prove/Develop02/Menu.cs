@@ -16,9 +16,4 @@ public static class Menu
 
         return userChoice;
     }
-
-
-
-   
-
 }
