@@ -1,9 +1,9 @@
 public class ReflectingActivity : Activity
 {
 
-    public List<string> _prompts = new List<string>();
-    public List<string> _questions = new List<string>();
-    public List<string> _questionsUsed = new List<string>();
+    private List<string> _prompts = new List<string>();
+    private List<string> _questions = new List<string>();
+    private List<string> _questionsUsed = new List<string>();
 
     public ReflectingActivity()
     : base(
@@ -30,7 +30,7 @@ public class ReflectingActivity : Activity
     }
 
 
-    public string GetRandomPrompt()
+    private string GetRandomPrompt()
     {
         Random rnd = new Random();
 
@@ -43,7 +43,7 @@ public class ReflectingActivity : Activity
 
 
 
-    public string GetRandomQuestion()
+    private string GetRandomQuestion()
     {
         if (_questions.Count == 0)
         {

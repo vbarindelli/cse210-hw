@@ -1,7 +1,6 @@
 public class ListingActivity : Activity
 {
-    public int _count;
-    public List<string> _prompts = new List<string>();
+    private List<string> _prompts = new List<string>();
     public ListingActivity() 
     : base(
         "Listing", 
@@ -16,7 +15,7 @@ public class ListingActivity : Activity
 
     }
 
-    public string GetRandomPrompt()
+    private string GetRandomPrompt()
     {
         Random rnd = new Random();
 
@@ -26,7 +25,7 @@ public class ListingActivity : Activity
 
         return _prompts[myRandomNumber];
     }
-    public List<string> GetListFromUser()
+    private List<string> GetListFromUser()
     {
         DateTime startTime = DateTime.Now;
         List<string> repsonses = new List<string>();
