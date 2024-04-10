@@ -6,7 +6,6 @@ public class GoalManager
 
     public GoalManager()
     {
-        ;
     }
     public void Start()
     {

@@ -1,5 +1,0 @@
-105
-SimpleGoal:Simple*Simpleeeee eeee eeee*10
-EternalGoal:Eternal*Eternal lll llll llll llll*15
-ChecklistGoal:Checklist*Check check check check check*20*3*35
-SimpleGoal:simple 2*simple asd asd agrr*5
